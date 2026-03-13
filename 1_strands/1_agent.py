@@ -1,0 +1,10 @@
+# 必要なライブラリをインポート
+from dotenv import load_dotenv
+from strands import Agent
+
+# .envファイルから環境変数を読み込む
+load_dotenv()
+
+# エージェントを作成して起動
+agent = Agent("us.anthropic.claude-sonnet-4-20250514-v1:0")
+agent("JAWS-UGって何？")
