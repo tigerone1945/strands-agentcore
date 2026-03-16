@@ -1,2 +1,3 @@
 strands-agents
 bedrock-agentcore
+agentcore configure --entrypoint agentcore.py --name jawsug
